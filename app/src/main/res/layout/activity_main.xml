@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter activity name-->
+    <EditText
+        android:id="@+id/idEdtActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity name" />
+
+    <!--Edit text to enter activity date-->
+
+    <EditText
+        android:id="@+id/idEdtActivityDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity date" />
+
+    <!--Edit text to enter activity location-->
+    <EditText
+        android:id="@+id/idEdtActivityLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity location" />
+
+
+    <!--edit text for activity time-->
+    <EditText
+        android:id="@+id/idEdtActivityTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter time activity was held" />
+
+    <!--Edit text to enter activity reporter-->
+    <EditText
+        android:id="@+id/idEdtActivityReporter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter reporter name" />
+
+
+    <!--Edit text to enter activity description-->
+
+    <EditText
+        android:id="@+id/idEdtActivityDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity description" />
+
+
+
+    <!--button for adding new activity-->
+    <Button
+        android:id="@+id/idBtnAddActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnDisplayActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="See all stories"
+        android:textAllCaps="false" />
+
+    <!--new button for opening our activity list-->
+    <Button
+        android:id="@+id/idBtnReadActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Database"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+
+    <!--edit text to display activity name-->
+    <EditText
+        android:id="@+id/idEdtActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity name" />
+
+
+    <!--edit text to display activity date-->
+
+    <EditText
+        android:id="@+id/idEdtActivityDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity date" />
+
+
+    <!--edit text to display activity location-->
+
+    <EditText
+        android:id="@+id/idEdtActivityLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter activity location" />
+
+
+
+
+    <!--edit text for activity time-->
+    <EditText
+        android:id="@+id/idEdtActivityTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter time activity was held" />
+
+
+    <!--edit text to display activity reporter-->
+    <EditText
+        android:id="@+id/idEdtActivityReporter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter reporter name" />
+
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtActivityDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Add activity report" />
+
+
+    <!--button for updating our activity-->
+    <Button
+        android:id="@+id/idBtnUpdateActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update activity"
+        android:textAllCaps="false" />
+
+    <!--button for deleting our activity-->
+    <Button
+        android:id="@+id/idBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete Activity"
+        android:textAllCaps="false" />
+
+</LinearLayout>

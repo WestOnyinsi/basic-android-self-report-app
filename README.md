@@ -1,4 +1,2 @@
 # basic-android-self-report-app
-Hardcoded login credentials:
-user: wonyinsi@usiu.ac.ke
-password: admin
+Android Java application to capture user details, store in SQLite database and display. Admin has CRUD priviledges
